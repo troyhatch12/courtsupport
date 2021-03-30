@@ -1,0 +1,135 @@
+<!DOCTPYE html>
+
+<html lang = "en">
+<head>
+	<title>CourtSupport.ca</title>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" href = "courtsupport_CSS.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+
+	<script type = "text/javascript" src = "jquery.min.js"></script>
+	<script type = "text/javascript" src = "dropdowns.js"></script>
+	
+	<script src="https://use.fontawesome.com/85755b76f9.js"></script>
+
+</head>
+
+<body>
+<header>
+
+	<i id = "hamburger" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+	<a id = "headTitle" href = "index.html">CourtSupport.ca</a>
+	<div id = "tagline"><p>Spreading awareness and providing support for abuse court battles.</p></div>
+	<a class = "nodec" href = "register.html">
+	<div id = "regButton">
+		<div id = "butText">Register</div>
+		<image id = "butArrow" src = "assets\arrow_right.png"></image>
+	</div></a>
+</header>
+
+<div id = "slideout" class = "sidenav">
+	<a class="closebtn" onclick="closeNav()">&times;</a>
+	<ul id = "vertNav">
+		<li id = "Shome" class = "ScurrentPage"><a href = "index.html" class = "Shighlight sNavItems">Home</a></li>
+		<hr class = "divider">
+		<li id = "Sconference" class = "sNavItems">
+		<a href = "conference.html" class = "Shighlight sNavItems">Conference</a>
+			<ul id = "confOptions">
+				<li><a href = "conference.html#panel" class = "Shighlight">Panel</a></li>
+				<li><a href = "conference.html#entertainment" class = "Shighlight">Entertainment</a></li>
+			</ul>
+		</li>
+		<hr class = "divider">
+		<li id = "Ssupportservices" class = "sNavItems"><a href = "supportservices.html" class = "Shighlight">Support Services</a>
+			<ul id = "supOptions">
+				<li><a href = "supportservices.html#courtchaperone" class = "Shighlight">Chaperone</a></li>
+				<li><a href = "supportservices.html#legal" class = "Shighlight">Legal</a></li>
+				<li><a href = "supportservices.html#volunteer" class = "Shighlight">Volunteer</a></li>
+			</ul>
+		</li>
+		<hr class = "divider">
+		<li id = "Sabout" class = "sNavItems"><a href = "about.html" class = "Shighlight">About</a></li>
+
+	</ul>
+
+
+</div>
+
+<nav id = "top">
+<ul>
+	<li id = "home" class = "underline currentPage"><a href = "index.html" class = "highlight">Home</a></li>
+	<li id = "conference" class = "underline"><a href = "conference.html" class = "highlight">Conference</a>
+		<ul id = "confDropdown" class = "navdropdown">
+			<li><a href = "conference.html#panel" class = "highlight">Panel</a></li>
+			<li><a href = "conference.html#entertainment" class = "highlight">Entertainment</a></li>
+		</ul>
+	</li>
+	<li id = "supportservices" class = "underline"><a href = "supportservices.html" class = "highlight">Support Services</a>
+		<ul id = "supDropdown" class = "navdropdown">
+			<li><a href = "supportservices.html#courtchaperone" class = "highlight">Chaperone</a></li>
+			<li><a href = "supportservices.html#legal" class = "highlight">Legal</a></li>
+			<li><a href = "supportservices.html#volunteer" class = "highlight">Volunteer</a></li>
+		</ul>
+	</li>
+	<li id = "about" class = "underline"><a href = "about.html" class = "highlight">About</a></li>
+</ul>
+
+
+</nav>
+
+
+<div id = "BigName">
+	<h1>Court Support</h1>
+
+</div>
+
+
+
+<div class = "contentBoxG">
+	<h2 class = "secHeader">Who Are We?</h2>
+	<p class = "par1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+	text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+	survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+	in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+	 like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+</div>
+
+<div class = "contentBox">
+	<h2 class = "secHeader">Need to Register?</h2>
+	<p class = "par2-1">Our conference will provide information and entertainment regarding workplace and domestic 
+	abuse and the grueling court battles that often follow. &nbsp <a href = "conference.html">Learn More</a></p>
+
+	<div class = "par2-2">
+		<a href = "register.html">
+			<div class = "regButton">
+			<div id = "butTextBig">Register</div>
+			<image id = "butArrowBig" src = "assets\arrow_right.png"></image>
+			</div>
+		</a>
+	</div>
+</div>
+
+<div id = "foot" class = "contentBoxG">
+	<footer>
+		<ul id = "footlinks">
+			<li><a id = "contactlink" href = "about.html#contact">Contact Us</a></li>
+			<li><a href = "#">Back to Top</a></li>
+		</ul>
+
+		<a id = "fblink" href = "http://www.facebook.com"><image id = "fbimg" src = "assets\Facebook.png"></image></a>
+		<a id = "twilink" href = "http://www.twitter.com"><image id = "twiimg" src = "assets\Twitter1.png"></image></a>
+	</footer>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.navdropdown a').on('click', function (e) {
+	console.log('click', e)
+	e.preventDefault();
+});
+</script>
+-->
+
+<script type = "text/javascript" src = "myslideout.js"></script>
+</body>
